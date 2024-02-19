@@ -256,7 +256,7 @@ const Dashboard: React.FC = () => {
               </div>
             </div>
             <div className="col-span-8 space-x-2">
-              <h1 className="font-medium">Reka Rachmadi Apriansyah</h1>
+              <span className="font-medium">Reka Rachmadi Apriansyah</span>
               <p>
                 <span className="text-green-500">●</span> Online
               </p>
@@ -277,7 +277,7 @@ const Dashboard: React.FC = () => {
               </div>
             </div>
             <div className="col-span-8 space-x-2">
-              <h1 className="font-medium">Raka Rachmadi</h1>
+              <span className="font-medium">Raka Rachmadi</span>
               <p>
                 <span className="text-red-500">●</span> In a meeting
               </p>
