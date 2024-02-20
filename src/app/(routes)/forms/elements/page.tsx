@@ -5,6 +5,7 @@ import {
   Button,
   Card,
   Checkbox,
+  ColorPicker,
   DatePicker,
   Form,
   Input,
@@ -247,6 +248,15 @@ const Elements = () => {
                 label={<span className="text-slate-600 font-medium">Time</span>}
               >
                 <DatePicker picker="time" className="w-full" />
+              </Form.Item>
+              <Form.Item
+                label={
+                  <span className="text-slate-600 font-medium">
+                    Color Picker
+                  </span>
+                }
+              >
+                <ColorPicker defaultValue="#1677ff" size="large" showText />
               </Form.Item>
             </Card>
           </div>
